@@ -8,6 +8,30 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    {/* if (second <= 59 && second < 1) {
+        second--;
+        setSecond(second)
+      } else if (minute <= 59 && second < 1) {
+        minute--;
+        setMinute(minute);
+        setSecond((second = 59));
+      } else if (minute <= 0 && second <= 1) {
+        minute--;
+        setMinute(minute);
+        setSecond((second = 59));
+        hour--
+        setHour(hour)
+      } else if (hour <= 59 && minute < 1) {
+        hour--;
+        setHour(hour);
+        setMinute((minute = 59));
+        setSecond((second = 59));
+      } else if (hour <= 0 && minute <= 1) {
+        hour = 0;
+        setHour(hour);
+        setSecond((second = 59));
+        setMinute((minute = 59));
+      } */}
   </React.StrictMode>
 );
 
